@@ -25,7 +25,7 @@ validarDNI = () => {
     const dni = dniInput.value.trim().toUpperCase()
 
     if (esDNI(dni))
-        document.getElementById('resultado').textContent = `El DNI ${dni} es válido.`
+        document.getElementById('resultado').textContent = `DNI ${dni} es válido`
     else
-        document.getElementById('resultado').textContent = `El DNI ${dni} no es válido.`
+        document.getElementById('resultado').textContent = `DNI ${dni} no es válido`
 }
